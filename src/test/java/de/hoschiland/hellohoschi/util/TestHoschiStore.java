@@ -5,11 +5,11 @@ import de.hoschiland.hellohoschi.de.hoschiland.hellohoschi.util.HoschiStore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class HoschiStoreTest {
+class TestHoschiStore {
 
 
     @Test
-    public void addHoschi() {
+    void addHoschi() {
 
         // Arrange
         Hoschi hoschiTest = new Hoschi();

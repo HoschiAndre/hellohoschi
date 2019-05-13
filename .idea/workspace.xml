@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e044b668-5dd4-4a85-9436-fb9e34f4f255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/HoschiStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/Hoschi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/Hoschi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/HoschiStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/HoschiStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/HoschiStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/TestHoschiStore.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +22,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="860">
-                  <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+                <state relative-caret-position="469">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
                 </state>
               </provider>
             </entry>
@@ -47,7 +46,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiEndpoint.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
+                <state relative-caret-position="782">
                   <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -56,11 +55,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/HoschiStoreTest.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/TestHoschiStore.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="26" column="107" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -71,7 +70,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/HoschiStore.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
+                <state relative-caret-position="833">
                   <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -83,8 +82,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/Hoschi.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1258">
-                  <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+                <state relative-caret-position="1190">
+                  <caret line="90" selection-start-line="90" selection-end-line="90" />
                   <folding>
                     <element signature="e#767#768#0" expanded="true" />
                     <element signature="e#797#798#0" expanded="true" />
@@ -98,12 +97,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/HoschiStore.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
-                  <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+                <state relative-caret-position="658">
+                  <caret line="64" selection-start-line="64" selection-end-line="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -133,11 +132,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiApplication.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/HoschiStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/Hoschi.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/HoschiStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/TestHoschiStore.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -198,8 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +270,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +294,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HoschiStoreTest.addHoschi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHoschiStore.addHoschi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hellohoschi" />
       <extension name="coverage">
         <pattern>
@@ -303,7 +303,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="de.hoschiland.hellohoschi.util" />
-      <option name="MAIN_CLASS_NAME" value="de.hoschiland.hellohoschi.util.HoschiStoreTest" />
+      <option name="MAIN_CLASS_NAME" value="de.hoschiland.hellohoschi.util.TestHoschiStore" />
       <option name="METHOD_NAME" value="addHoschi" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -312,7 +312,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HoschiStoreTest.addHoschi" />
+        <item itemvalue="JUnit.TestHoschiStore.addHoschi" />
       </list>
     </recent_temporary>
   </component>
@@ -341,12 +341,17 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HoschiStoreTest_addHoschi - 2019.05.13 at 22h 37m 45s.xml">
+      <configuration name="HoschiStoreTest.addHoschi" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="60" y="30" width="2504" height="1414" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49593496" visible="true" weight="0.15387756" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.50406504" side_tool="true" visible="true" weight="0.15387756" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4947735" visible="true" weight="0.15510204" />
+      <window_info id="Structure" order="1" sideWeight="0.5052265" side_tool="true" visible="true" weight="0.15510204" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -354,15 +359,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32839313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32839313" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.2199688" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,6 +404,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -406,16 +426,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hellohoschi.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -431,16 +441,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+        <state>
+          <caret column="21" selection-start-column="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/HelloHoschiEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
+        <state relative-caret-position="782">
           <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -450,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/Hoschi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="1190">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#767#768#0" expanded="true" />
             <element signature="e#797#798#0" expanded="true" />
@@ -463,7 +476,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/hoschiland/hellohoschi/de/hoschiland/hellohoschi/util/HoschiStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
+        <state relative-caret-position="833">
           <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -471,13 +484,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/HoschiStoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/hoschiland/hellohoschi/util/TestHoschiStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="107" selection-start-line="26" selection-start-column="107" selection-end-line="26" selection-end-column="107" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
