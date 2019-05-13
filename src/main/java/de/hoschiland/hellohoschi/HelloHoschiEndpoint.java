@@ -49,7 +49,7 @@ public class HelloHoschiEndpoint {
     @Produces(MediaType.APPLICATION_JSON)
     public Response addHoschi(Hoschi hoschi) {
 
-        HoschiStore.getInstance().addHoschi(hoschi.getNickName(), hoschi);
+        HoschiStore.getInstance().addHoschi(hoschi);
 
         return Response.ok().build();
     }

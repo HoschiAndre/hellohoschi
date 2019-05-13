@@ -50,8 +50,8 @@ public class HoschiStore {
 
     }
 
-    public void addHoschi(String nickName, Hoschi hoschi) {
-        hoschiMap.put(nickName, hoschi);
+    public void addHoschi(Hoschi hoschi) {
+        hoschiMap.put(hoschi.getNickName(), hoschi);
     }
 
     public Map getAllHoschis() {
