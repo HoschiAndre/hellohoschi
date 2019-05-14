@@ -1,5 +1,6 @@
 package de.hoschiland.hellohoschi.de.hoschiland.hellohoschi.util;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -54,13 +55,15 @@ public class HoschiStore {
         hoschiMap.put(hoschi.getNickName(), hoschi);
     }
 
-    public Map getAllHoschis() {
-        return hoschiMap;
+    public Collection getAllHoschis() {
+        return hoschiMap.values();
     }
 
     public Hoschi getHoschi(String nickName) {
         return hoschiMap.get(nickName);
     }
+
+    public void deleteHoschiByNickName(String nickName) { hoschiMap.remove(nickName); }
 
 
 
