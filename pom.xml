@@ -11,15 +11,11 @@
     <name>Hello Hoschi</name>
 
     <properties>
-        <version.thorntail>2.4.0.Final</version.thorntail>
+        <version.thorntail>2.5.0.Final</version.thorntail>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- Specify the JDK builder image used to build your application. -->
-        <fabric8.generator.from>registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift:latest
-        </fabric8.generator.from>
     </properties>
 
     <dependencyManagement>
@@ -33,18 +29,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>io.thorntail</groupId>
-            <artifactId>jaxrs</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.4.2</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
     <build>
         <finalName>hellohoschi</finalName>
@@ -68,5 +52,24 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.thorntail</groupId>
+            <artifactId>jaxrs</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.4.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
